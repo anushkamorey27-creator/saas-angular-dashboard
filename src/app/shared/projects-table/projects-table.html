@@ -1,0 +1,26 @@
+<div class="table-card">
+    <h2>Projects</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Project Name</th>
+                <th>Status</th>
+                <th>Team Size</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let project of projects">
+                <td>{{ project.name }}</td>
+                <td>
+                    <span class="status" [ngClass]="{
+                        'active': project.status === 'Active',
+                        'pending': project.status === 'Pending' 
+                         }">
+                        {{ project.status }}
+                    </span>
+                </td>
+                <td>{{ project.team }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

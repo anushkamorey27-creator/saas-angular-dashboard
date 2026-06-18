@@ -1,0 +1,48 @@
+<div class="dashboard-layout">
+  <app-sidebar></app-sidebar>
+
+  <div class="main-content">
+    <app-topbar></app-topbar>
+
+    <div class="content">
+
+      <div class="dashboard-header">
+        <div>
+          <h1>Dashboard</h1>
+          <p>Welcome back, Anushka 👋</p>
+        </div>
+
+        <button class="primary-btn">
+          + New Project
+        </button>
+      </div>
+
+      <div class="cards-grid">
+
+        <app-stat-card
+          title="Revenue"
+          value="₹24,780">
+        </app-stat-card>
+
+        <app-stat-card
+          title="Users"
+          value="1,245">
+        </app-stat-card>
+
+        <app-stat-card
+          title="Projects"
+          value="32">
+        </app-stat-card>
+
+        <app-stat-card
+          title="Tasks"
+          value="785">
+        </app-stat-card>
+
+      </div>
+      <div class="dashboard-bottom">
+<app-projects-table></app-projects-table>
+<app-activity-feed></app-activity-feed>
+    </div>
+  </div>
+</div>
