@@ -1,5 +1,38 @@
 # SaasDashboard
 
+
+# SaaS Dashboard
+
+A responsive SaaS dashboard built with Angular.
+
+## Features
+
+- Angular Standalone Components
+- Angular Routing
+- Reusable Stat Cards
+- Projects Table
+- Activity Feed
+- Flexbox Layout
+- Dynamic Rendering using *ngFor
+- Conditional Styling using ngClass
+
+## Tech Stack
+
+- Angular
+- TypeScript
+- HTML
+- CSS
+
+## Screenshots
+
+
+![Dashboard](./screenshots/1.png)
+
+![Projects](./screenshots/2.png)
+
+![Activity Feed](./screenshots/3.png)
+
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.14.
 
 ## Development server
